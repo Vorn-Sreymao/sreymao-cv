@@ -35,6 +35,10 @@ ul li a{
     color: rgb(253, 250, 250);
 }
 
+.active{
+    background-color: rgb(21, 21, 245);
+}
+
 button{
     padding: 8px 16px;
     border: none;                                                                                 
@@ -221,31 +225,53 @@ h3{
 /* ----------------------Body contact----------------------------------- */
 .contact{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
 }
 
 .group-item1{
+    width: 25%;
+    padding: 1rem;
     border: 1px solid black;
     background-color: rgb(161, 153, 155);
     border-radius: 5px;
     border: none;
-    margin-left: 10px;
-    justify-content: space-evenly;
+    margin-left: 1rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.group-item1 h4{
+    text-transform: uppercase;
+    justify-content: center;
+    text-align: center;
+}
+
+.group-item1 .fa{
+    margin-left: 5 0%;
+    color: white;
+    border: 1px solid black;
+    border: none;
+    background-color: rgb(7, 62, 214);
+    width:20px;
+}
+
+.group-item1 p{
+    font-size: 0.7rem;
+    justify-content: center;
+    text-align: center;
 }
 
 .form{
     display: flex;
+    flex-wrap: wrap;
     margin-top: 20px;
     margin-left: 10px;
 }
 
 form {
-    width: 50%;
+    width: 45%;
     border: 1px solid #ccc;
     background-color: rgb(175, 173, 173);
-    padding: 2em;
+    padding: 1rem;
     border-radius: 0.5em;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
@@ -275,14 +301,18 @@ textarea {
     border: none;
 }
 
-.group-item1{
+/* .group-item1{
     width: 25%;
     padding: 40px;
     margin-top: 20px;
-}
+} */
 
-form .img{
-    width: 100%;
+.map{
+    width: 48%;
+    margin-left: 0.5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    border: none;
 }
 
 /* --------------------------Footer--------------------------- */
@@ -365,6 +395,27 @@ footer{
     .group-item3{
         display: flex;
         flex-wrap: wrap;
+    }
+
+    /* ----------------------habit--------------------------- */
+    .habit{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card-item1{
+        width: 100%;
+    }
+
+    .card-item1 img{
+        margin-left: 30%;
+    }
+
+    /* -------------------------contact------------------ */
+    .group-item1,
+    form,
+    .map{
+        width: 100%;
     }
 }
 
