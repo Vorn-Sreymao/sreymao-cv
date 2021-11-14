@@ -155,11 +155,11 @@ img{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.design img{
+/* .design img{
     width: 75%;
     height: 25vh;
 
-}
+} */
 
 .development{
     border: 1px solid ;
@@ -169,11 +169,11 @@ img{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.development img{
+/* .development img{
     width: 70%;
     height: 130px;
     margin-left: 50px;
-}
+} */
 
 h5{
     justify-content: center;
@@ -348,60 +348,23 @@ footer{
         justify-content: center;   
     }
 
-    /* .row{
-        flex-wrap: wrap;
-    } */
+  
 
     /* ---------------------about------------------------ */
-    .card-1{
-        width: 70%;
-        height: 95vh;
-        margin-left: 50px;
-
-    }
-    
-    .card-2 h4{
-        width: 30%;
-        font-size: 30px ;
-    }
-
-    .card-2 span{
-        font-size: 25px;
-    }
-    .containers, .group-item3{
-        display: inline;
-    }
-
-    .design, .development{
-        width: 70%;
-    }
-
+    .card-1,
+    .card-2,
+    .design,
     .development{
-        margin-top: 10px;
+        width: 100%;
+    }
+    .containers{
+        display: flex;
+        flex-wrap: wrap;
     }
 
-    .design img{
-        width: 50%;
-        margin-left: 90px;
-    }
-    .development img{
-        width: 50%;
-        margin-left: 90px;
-    }
-    
     .group-item3{
-        margin-left: 9 0px;
-    }
-    .group-item3 h5{
-        font-size: 15px;
-    }
-
-    .group-item3 p{
-        font-size: 15px;
-    }
-
-    .icon-social a{
-        font-size: 10px;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
