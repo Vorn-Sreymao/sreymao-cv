@@ -220,6 +220,10 @@ h3{
     margin-left: 10px;
 }
 
+.group-item1 .fa{
+    margin-left: 170px;
+}
+
 /* ----------------------Body contact----------------------------------- */
 .contact{
     display: flex;
@@ -432,6 +436,15 @@ footer{
     .card-2 h4{
         font-size: 15px;
         width: 30%;
+    }
+
+    /* ----------------contact------------------------ */
+    .contact .group-item1{
+        margin-top: 5px;
+    }
+
+    .map{
+        margin-top: 10px;
     }
 
 /* --------------------footer------------------------ */
