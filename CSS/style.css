@@ -159,11 +159,10 @@ img{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-/* .design img{
-    width: 75%;
-    height: 25vh;
+.design img{
+    height: 130px;
 
-} */
+}
 
 .development{
     border: 1px solid ;
@@ -173,11 +172,10 @@ img{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-/* .development img{
-    width: 70%;
+.development img{
     height: 130px;
     margin-left: 50px;
-} */
+}
 
 h5{
     justify-content: center;
@@ -431,12 +429,20 @@ footer{
         width: 100%;
     }
 
+    .card-2 h4{
+        font-size: 15px;
+        width: 30%;
+    }
+
 /* --------------------footer------------------------ */
-    .langue,
-    .interest,
+    /* .langue, */
+    /* .interest,
     .contact{
         width: 100%;
         text-align: center;
+    }
+    footer{
+        flex-wrap: wrap;
     }
 
     .row{
@@ -446,6 +452,39 @@ footer{
 
     .aling-center{
         display: flex;
-        justify-content: center;   
+        justify-content: center;
+        align-items: center;   
+    } */
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: tomato;
+    }
+    .footer{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    footer .footer .langue{
+         width: 100%;
+        display: inline-block;
+        margin-left: 100px;
+    }
+    footer .footer .interest{
+        width: 100%;
+       display: inline-block;
+       margin-left: 100px;
+   }
+    
+    footer .footer .contact{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: tomato;
     }
 }
