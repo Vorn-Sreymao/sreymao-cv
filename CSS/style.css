@@ -460,7 +460,7 @@ footer{
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        background-color: tomato;
+        background-color: black;
     }
     .footer{
         width: 100%;
@@ -485,6 +485,5 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: tomato;
     }
 }
