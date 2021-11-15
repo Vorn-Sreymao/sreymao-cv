@@ -458,6 +458,12 @@ footer{
         margin-top: 10px;
     }
 
+    .group-item1 .fa{
+        margin-left: 50%;
+        color: white;
+        width:20px;
+       margin-left:90px;
+    }
 /* --------------------footer------------------------ */
     /* .langue, */
     /* .interest,
@@ -496,7 +502,7 @@ footer{
     footer .footer .langue{
          width: 100%;
         display: inline-block;
-        margin-left: 100px;
+        margin-left:100px;
     }
     footer .footer .interest{
         width: 100%;
@@ -506,8 +512,7 @@ footer{
     
     footer .footer .contact{
         width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+       display: inline-block;
+       margin-left: 100px;
     }
 }
