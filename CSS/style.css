@@ -250,10 +250,8 @@ h3{
 .group-item1 .fa{
     margin-left: 5 0%;
     color: white;
-    border: 1px solid black;
-    border: none;
-    background-color: rgb(7, 62, 214);
     width:20px;
+   margin-left:300px;
 }
 
 .group-item1 p{
@@ -418,6 +416,19 @@ footer{
     form,
     .map{
         width: 100%;
+    }
+
+    .contact .group-item1{
+        margin-top: 5px;
+    }
+
+    .contact .map{
+        margin-top: 10px;
+    }
+
+    /* ------------------footer------------------------ */
+    .footer{
+        justify-content: space-evenly;
     }
 }
 
