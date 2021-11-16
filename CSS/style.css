@@ -227,11 +227,13 @@ h3{
 /* ----------------------Body contact----------------------------------- */
 .contact{
     display: flex;
-    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
 }
 
 .group-item1{
-    width: 25%;
+    width: 29%;
     padding: 1rem;
     border: 1px solid black;
     background-color: rgb(161, 153, 155);
@@ -262,13 +264,13 @@ h3{
 
 .form{
     display: flex;
-    flex-wrap: wrap;
-    margin-top: 20px;
-    margin-left: 10px;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
 }
 
 form {
-    width: 45%;
+    width: 48%;
     border: 1px solid #ccc;
     background-color: rgb(175, 173, 173);
     padding: 1rem;
@@ -301,15 +303,10 @@ textarea {
     border: none;
 }
 
-/* .group-item1{
-    width: 25%;
-    padding: 40px;
-    margin-top: 20px;
-} */
 
 .map{
     width: 48%;
-    margin-left: 0.5rem;
+    margin-left: 1.5rem;
     border: 1px solid black;
     border-radius: 5px;
     border: none;
@@ -320,14 +317,15 @@ textarea {
 footer{
     background-color: black;
     margin-top: 5%;
-}
-
-.footer{
-    display: flex;
-    justify-content: space-evenly;
     line-height: 30px;
     color: white;
+    width: 100%;
 }
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+
 
 .icon-social{
     display: block;
@@ -342,7 +340,7 @@ footer{
     text-decoration: none;
     color: black;
     font-size: 13px;
-}
+} 
 
 .group-icon a{
     text-decoration: none;
@@ -356,7 +354,7 @@ footer{
 
 .group-item a{
     color: #eee;
-}
+} 
 
 
 /* --------------------Responsive----------------------- */
@@ -472,54 +470,18 @@ footer{
         margin-left: 70px;
     }
 /* --------------------footer------------------------ */
-    /* .langue, */
-    /* .interest,
-    .contact{
-        width: 100%;
-        text-align: center;
-    }
-    footer{
-        flex-wrap: wrap;
-    }
 
-    .row{
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .aling-center{
-        display: flex;
-        justify-content: center;
-        align-items: center;   
-    } */
-    footer{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
+    .footer{
+        margin-left: 70px;
+        display: block;
         background-color: black;
     }
-    .footer{
+    footer{
         width: 100%;
+        margin: auto;
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-wrap: wrap;
     }
-    footer .footer .langue{
-         width: 100%;
-        display: inline-block;
-        margin-left:100px;
-    }
-    footer .footer .interest{
-        width: 100%;
-       display: inline-block;
-       margin-left: 100px;
-   }
     
-    footer .footer .contact{
-        width: 100%;
-       display: inline-block;
-       margin-left: 100px;
-    }
 }
