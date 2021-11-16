@@ -447,13 +447,46 @@ footer{
         width: 30%;
     }
 
+    /* ------------------body----------------- */
+    .card-1{
+        width: 80%;
+        height: 65vh;
+    }
+    .development img{
+        width: 70%;
+        margin-top: 20px;
+    }
+
+    .design img{
+        width: 70%;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+    .design,
+    .development h5{
+        font-size: 20px;
+    }
+
+    .design,
+    .development{
+        margin-top: 20px;
+    }
+
+    .development{
+        margin-bottom: 20px;
+    }
+
     /* ----------------contact------------------------ */
     .contact .group-item1{
-        margin-top: 5px;
+        margin-top: 10px;
+        width: 70%;
     }
 
     .map{
         margin-top: 10px;
+        width: 88%;
+        margin-bottom: 20px;
     }
 
     .group-item1 .fa{
@@ -464,10 +497,32 @@ footer{
        color: rgb(5, 5, 105);
     }
 
+    .contact{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .form{
+        width: 100%;
+        flex-wrap: wrap;
+        
+    }
+
+    form{
+        width: 80%;
+        margin: auto;
+    }
+
     /* ------------habit---------------- */
     .card-item1 img{
         margin: auto;
         margin-left: 70px;
+        margin-top: 10px;
+        height: 20vh;
+    }
+
+    .card-item1{
+        margin-bottom: 20px;
     }
 /* --------------------footer------------------------ */
 
@@ -475,6 +530,7 @@ footer{
         margin-left: 70px;
         display: block;
         background-color: black;
+        
     }
     footer{
         width: 100%;
