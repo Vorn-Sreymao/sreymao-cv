@@ -409,6 +409,10 @@ footer{
         margin-top: 20px;
     }
 
+    .card-2 h4{
+        width: 25%;
+    }
+
     /* ----------------------habit--------------------------- */
     .habit{
         display: flex;
@@ -442,6 +446,7 @@ footer{
 
     .group-item1 .fa{
         margin-left: 45%;
+        color: blue;
     }
 
     /* ------------------footer------------------------ */
