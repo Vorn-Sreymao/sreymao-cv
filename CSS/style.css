@@ -361,7 +361,7 @@ footer{
 @media (max-width:860px){
     /* ---------------home-------------------------- */
     .body{
-        display: flex;
+        display: flex; 
         flex-wrap: wrap;
     }
     .image1{
@@ -393,6 +393,20 @@ footer{
     .group-item3{
         display: flex;
         flex-wrap: wrap;
+        width: 70%;
+        
+    }
+
+    .design img{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 20px;
+    }
+
+    .development img{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 20px;
     }
 
     /* ----------------------habit--------------------------- */
@@ -418,10 +432,16 @@ footer{
 
     .contact .group-item1{
         margin-top: 5px;
+        width: 25%;
+    
     }
 
     .contact .map{
         margin-top: 10px;
+    }
+
+    .group-item1 .fa{
+        margin-left: 45%;
     }
 
     /* ------------------footer------------------------ */
